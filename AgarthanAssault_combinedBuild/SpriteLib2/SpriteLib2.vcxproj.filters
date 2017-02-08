@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{c6810dfc-626c-41ac-84a8-d0c83462647d}</UniqueIdentifier>
+      <Extensions>glsl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SpriteLib2">
+      <UniqueIdentifier>{5de679c3-046c-416a-88b7-f7aa4b1409f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\SpriteLib2">
+      <UniqueIdentifier>{335b228e-6c31-4c4f-8faa-3b222016c351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpriteLib2">
+      <UniqueIdentifier>{ee925735-389c-4b42-b2ad-00bdfff726ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\sprite.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\text.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\vector3.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\window.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\matrix4x4.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\shader.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+    <ClCompile Include="spritelib\shapes.cpp">
+      <Filter>Source Files\SpriteLib2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="spritelib\debug.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\matrix4x4.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\shader.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\shapes.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\sprite.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\spritelib.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\text.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\vector3.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+    <ClInclude Include="spritelib\window.h">
+      <Filter>Header Files\SpriteLib2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\BlankVert.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\FilledCircleGeom.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\FilledTriangleGeom.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\LineShaderGeom.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\PassthroughTextureFrag.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\PassthroughTextureVert.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\ShapeFrag.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+    <None Include="assets\TextGeom.glsl">
+      <Filter>Shader Files\SpriteLib2</Filter>
+    </None>
+  </ItemGroup>
+</Project>

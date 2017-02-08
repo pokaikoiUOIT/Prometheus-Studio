@@ -1,0 +1,9 @@
+syntax: glob
+*.exe
+Debug/*
+Release/*
+*.sdf
+*.opendb
+*.pdb
+*.db
+*.orig

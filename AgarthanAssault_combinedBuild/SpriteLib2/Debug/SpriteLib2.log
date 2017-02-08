@@ -1,0 +1,83 @@
+﻿  window.cpp
+  vector3.cpp
+  text.cpp
+  sprite.cpp
+  shapes.cpp
+  shader.cpp
+  matrix4x4.cpp
+  main.cpp
+c:\users\100632764\documents\visual studio 2015\projects\prometheus-studio-spritelib\spritelib2\main.cpp(8): warning C4005: 'PI': macro redefinition
+  c:\users\100632764\documents\visual studio 2015\projects\prometheus-studio-spritelib\spritelib2\spritelib\matrix4x4.h(3): note: see previous definition of 'PI'
+c:\users\100632764\documents\visual studio 2015\projects\prometheus-studio-spritelib\spritelib2\main.cpp(41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\100632764\documents\visual studio 2015\projects\prometheus-studio-spritelib\spritelib2\main.cpp(54): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\100632764\documents\visual studio 2015\projects\prometheus-studio-spritelib\spritelib2\main.cpp(57): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\100632764\documents\visual studio 2015\projects\prometheus-studio-spritelib\spritelib2\main.cpp(58): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\100632764\documents\visual studio 2015\projects\prometheus-studio-spritelib\spritelib2\main.cpp(78): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\100632764\documents\visual studio 2015\projects\prometheus-studio-spritelib\spritelib2\main.cpp(79): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\100632764\documents\visual studio 2015\projects\prometheus-studio-spritelib\spritelib2\main.cpp(80): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+Box2d.lib(b2PolygonShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2PolygonShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2Body.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2Body.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2World.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2World.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2Fixture.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2Fixture.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2BroadPhase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2BroadPhase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2ContactManager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2ContactManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2Island.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2Island.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2Joint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2Joint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2PulleyJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2PulleyJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2Contact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2Contact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2WorldCallbacks.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2WorldCallbacks.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2ContactSolver.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2ContactSolver.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2DistanceJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2DistanceJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2WheelJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2WheelJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2MouseJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2MouseJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2RevoluteJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2RevoluteJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2PrismaticJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2PrismaticJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2GearJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2GearJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2WeldJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2WeldJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2FrictionJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2FrictionJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2RopeJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2RopeJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2MotorJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2MotorJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2CircleContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2CircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2PolygonAndCircleContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2PolygonAndCircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2PolygonContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2PolygonContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2EdgeAndCircleContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2EdgeAndCircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2EdgeAndPolygonContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2EdgeAndPolygonContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2ChainAndCircleContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2ChainAndCircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2ChainAndPolygonContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2ChainAndPolygonContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2ChainShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2ChainShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+Box2d.lib(b2EdgeShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+Box2d.lib(b2EdgeShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\100632764\Documents\Visual Studio 2015\Projects\Prometheus-Studio-Spritelib\Debug\SpriteLib2.exe : fatal error LNK1319: 62 mismatches detected
